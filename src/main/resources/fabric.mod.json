@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "renlava",
   "version": "${version}",
 
   "name": "Renewable Lava",
@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/renlava/icon.png",
 
   "environment": "*",
   "entrypoints": {
