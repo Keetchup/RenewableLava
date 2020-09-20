@@ -1,3 +1,8 @@
 {
-  "block.renlava.crucible": "Crucible"
+  "block.renlava.crucible": "Crucible",
+
+  "text.autoconfig.renlava.option.obsidianModifier": "Obsidian Modifier",
+  "text.autoconfig.renlava.option.obsidianModifier.@Tooltip": "Number of \"stacks\" each Obsidian adds. To fill a Crucible 4 \"stacks\" is needed. Default: 1",
+  "text.autoconfig.renlava.option.blazePowderModifier": "Blaze Powder Modifier",
+  "text.autoconfig.renlava.option.blazePowderModifier.@Tooltip": "Number of \"stacks\" each Blaze Powder adds. To fill a Crucible 16 \"stacks\" is needed. Default: 1"
 }

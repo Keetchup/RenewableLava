@@ -55,7 +55,11 @@ public class CrucibleBlock extends Block {
                 return ActionResult.PASS;
             } else if (itemStack.getItem() == Items.OBSIDIAN) {
                 if (this.getObsidian(blockState) < 4) {
-                    addObsidian(world, blockPos, blockState);
+                    int addedObsidianStack = 0;
+                    while (this.getObsidian(world.getBlockState(blockPos)) < 4 && addedObsidianStack < getStacksPerObsidian()) {
+                        addObsidian(world, blockPos);
+                        addedObsidianStack++;
+                    }
                     if (!playerEntity.abilities.creativeMode) {
                         itemStack.decrement(1);
                     }
@@ -63,7 +67,11 @@ public class CrucibleBlock extends Block {
                 }
             } else if (itemStack.getItem() == Items.BLAZE_POWDER) {
                 if (this.getBlazePowder(blockState) < 16) {
-                    addBlazePowder(world, blockPos, blockState);
+                    int addedBlazePowderStack = 0;
+                    while (this.getBlazePowder(world.getBlockState(blockPos)) < 16 && addedBlazePowderStack < getStacksPerBlazePowder()) {
+                        addBlazePowder(world, blockPos);
+                        addedBlazePowderStack++;
+                    }
                     if (!playerEntity.abilities.creativeMode) {
                         itemStack.decrement(1);
                     }
@@ -75,7 +83,7 @@ public class CrucibleBlock extends Block {
                     if (!playerEntity.abilities.creativeMode) {
                         playerEntity.setStackInHand(hand, new ItemStack(Items.LAVA_BUCKET));
                     }
-                    world.playSound((PlayerEntity)null, blockPos, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    world.playSound((PlayerEntity) null, blockPos, SoundEvents.ITEM_BUCKET_FILL_LAVA, SoundCategory.BLOCKS, 1.0F, 1.0F);
                     return ActionResult.SUCCESS;
                 }
             } else {
@@ -85,9 +93,9 @@ public class CrucibleBlock extends Block {
         return ActionResult.success(world.isClient);
     }
 
-    public void onEntityCollision(BlockState blockState, World world, BlockPos blockPos, Entity entity){
-        if (!world.isClient()){
-            if (this.getLavaLevel(blockState) > 0){
+    public void onEntityCollision(BlockState blockState, World world, BlockPos blockPos, Entity entity) {
+        if (!world.isClient()) {
+            if (this.getLavaLevel(blockState) > 0) {
                 entity.setOnFireFor(15);
                 entity.damage(DamageSource.LAVA, 4.0F);
             }
@@ -139,12 +147,22 @@ public class CrucibleBlock extends Block {
         return adjVariable;
     }
 
-    private static void addObsidian(World world, BlockPos blockPos, BlockState blockState) {
-        world.setBlockState(blockPos, (BlockState) blockState.with(OBSIDIAN, (Integer) blockState.get(OBSIDIAN) + 1), 4);
+    private static void addObsidian(World world, BlockPos blockPos) {
+        BlockState currentBlockState = world.getBlockState(blockPos);
+        world.setBlockState(blockPos, currentBlockState.with(OBSIDIAN, (Integer) currentBlockState.get(OBSIDIAN) + 1), 4);
     }
 
-    private static void addBlazePowder(World world, BlockPos blockPos, BlockState blockState) {
-        world.setBlockState(blockPos, (BlockState) blockState.with(BLAZE_POWDER, (Integer) blockState.get(BLAZE_POWDER) + 1), 4);
+    private static void addBlazePowder(World world, BlockPos blockPos) {
+        BlockState currentBlockState = world.getBlockState(blockPos);
+        world.setBlockState(blockPos, currentBlockState.with(BLAZE_POWDER, (Integer) currentBlockState.get(BLAZE_POWDER) + 1), 4);
+    }
+
+    private static int getStacksPerObsidian() {
+        return RenLava.getObsidianModifier();
+    }
+
+    private static int getStacksPerBlazePowder() {
+        return RenLava.getBlazePowderModifier();
     }
 
     private int getObsidian(BlockState blockState) {

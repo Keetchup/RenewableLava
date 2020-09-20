@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.keetchup.renlava.RenLava"
+    ],
+    "modmenu": [
+      "com.keetchup.renlava.config.ModMenuIntegration"
     ]
   },
   "mixins": [
