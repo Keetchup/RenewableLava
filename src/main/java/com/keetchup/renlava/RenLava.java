@@ -27,12 +27,4 @@ public class RenLava implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("renlava", "crucible"), new BlockItem(CRUCIBLE, new Item.Settings().group(ItemGroup.BREWING)));
     }
 
-    public static int getObsidianModifier() {
-        return CONFIG.obsidianModifier;
-    }
-
-    public static int getBlazePowderModifier() {
-        return CONFIG.blazePowderModifier;
-    }
-
 }

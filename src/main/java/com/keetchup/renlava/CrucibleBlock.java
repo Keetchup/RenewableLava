@@ -1,5 +1,6 @@
 package com.keetchup.renlava;
 
+import com.keetchup.renlava.config.RenLavaConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -54,11 +55,7 @@ public class CrucibleBlock extends Block {
                 return ActionResult.PASS;
             } else if (itemStack.getItem() == Items.OBSIDIAN) {
                 if (this.getObsidian(blockState) < 4) {
-                    int addedObsidianStack = 0;
-                    while (this.getObsidian(world.getBlockState(blockPos)) < 4 && addedObsidianStack < getStacksPerObsidian()) {
-                        addObsidian(world, blockPos);
-                        addedObsidianStack++;
-                    }
+                    addObsidian(world, blockPos);
                     if (!playerEntity.abilities.creativeMode) {
                         itemStack.decrement(1);
                     }
@@ -66,11 +63,7 @@ public class CrucibleBlock extends Block {
                 }
             } else if (itemStack.getItem() == Items.BLAZE_POWDER) {
                 if (this.getBlazePowder(blockState) < 16) {
-                    int addedBlazePowderStack = 0;
-                    while (this.getBlazePowder(world.getBlockState(blockPos)) < 16 && addedBlazePowderStack < getStacksPerBlazePowder()) {
-                        addBlazePowder(world, blockPos);
-                        addedBlazePowderStack++;
-                    }
+                    addBlazePowder(world, blockPos);
                     if (!playerEntity.abilities.creativeMode) {
                         itemStack.decrement(1);
                     }
@@ -113,55 +106,71 @@ public class CrucibleBlock extends Block {
         int lavaLevel = this.getLavaLevel(blockState);
         if (lavaLevel < 4) {
             float adjHeat = getAdjacentHeat(blockPos, world);
-            if (random.nextInt((int) (100.0F / adjHeat) + 1) == 0) {
+            if (random.nextInt((int) (100.0F / (adjHeat * getLavaChanceModifier())) + 1) == 0) {
                 world.setBlockState(blockPos, (BlockState) blockState.with(LAVA_LEVEL, (Integer) blockState.get(LAVA_LEVEL) + 1), 2);
             }
         }
     }
 
-    private static float getAdjacentHeat(BlockPos blockPos, BlockView world) {
+    private float getAdjacentHeat(BlockPos blockPos, BlockView world) {
         float adjVariable = 0.1F;
         for (int x = -1; x <= 1; x++) {
             BlockState blockStateX = world.getBlockState(blockPos.add(x, 0, 0));
-            if (blockStateX.getBlock() == Blocks.LAVA) {
-                if (blockStateX.getFluidState().isStill()) {
-                    adjVariable++;
-                }
-            }
+            adjVariable += checkSurroundingBlock(blockStateX);
         }
         for (int z = -1; z <= 1; z++) {
             BlockState blockStateZ = world.getBlockState(blockPos.add(0, 0, z));
-            if (blockStateZ.getBlock() == Blocks.LAVA) {
-                if (blockStateZ.getFluidState().isStill()) {
-                    adjVariable++;
-                }
-            }
+            adjVariable += checkSurroundingBlock(blockStateZ);
         }
         BlockState blockStateY = world.getBlockState(blockPos.add(0, -1, 0));
-        if (blockStateY.getBlock() == Blocks.LAVA) {
-            if (blockStateY.getFluidState().isStill()) {
-                adjVariable++;
-            }
-        }
+        adjVariable += checkSurroundingBlock(blockStateY);
+        System.out.println(adjVariable);
         return adjVariable;
     }
 
-    private static void addObsidian(World world, BlockPos blockPos) {
-        BlockState currentBlockState = world.getBlockState(blockPos);
-        world.setBlockState(blockPos, currentBlockState.with(OBSIDIAN, (Integer) currentBlockState.get(OBSIDIAN) + 1), 4);
+    private float checkSurroundingBlock(BlockState blockState) {
+        float surroundingVariable = 0F;
+        Block block = blockState.getBlock();
+        if (block == Blocks.LAVA && blockState.getFluidState().isStill()) {
+            surroundingVariable += 1F;
+        } else if (block == Blocks.LAVA && !(blockState.getFluidState().isStill())) {
+            surroundingVariable += 0.8F;
+        } else if (block == Blocks.CAMPFIRE || block == Blocks.FIRE) {
+            surroundingVariable += 0.5F;
+        } else if (block == Blocks.TORCH || block == Blocks.WALL_TORCH) {
+            surroundingVariable += 0.2F;
+        }
+        return surroundingVariable;
     }
 
-    private static void addBlazePowder(World world, BlockPos blockPos) {
-        BlockState currentBlockState = world.getBlockState(blockPos);
-        world.setBlockState(blockPos, currentBlockState.with(BLAZE_POWDER, (Integer) currentBlockState.get(BLAZE_POWDER) + 1), 4);
+    private void addObsidian(World world, BlockPos blockPos) {
+        int addedObsidianStack = 0;
+        while (this.getObsidian(world.getBlockState(blockPos)) < 4 && addedObsidianStack < getStacksPerObsidian()) {
+            BlockState currentBlockState = world.getBlockState(blockPos);
+            world.setBlockState(blockPos, currentBlockState.with(OBSIDIAN, (Integer) currentBlockState.get(OBSIDIAN) + 1), 4);
+            addedObsidianStack++;
+        }
     }
 
-    private static int getStacksPerObsidian() {
-        return RenLava.getObsidianModifier();
+    private void addBlazePowder(World world, BlockPos blockPos) {
+        int addedBlazePowderStack = 0;
+        while (this.getBlazePowder(world.getBlockState(blockPos)) < 16 && addedBlazePowderStack < getStacksPerBlazePowder()) {
+            BlockState currentBlockState = world.getBlockState(blockPos);
+            world.setBlockState(blockPos, currentBlockState.with(BLAZE_POWDER, (Integer) currentBlockState.get(BLAZE_POWDER) + 1), 4);
+            addedBlazePowderStack++;
+        }
     }
 
-    private static int getStacksPerBlazePowder() {
-        return RenLava.getBlazePowderModifier();
+    private int getStacksPerObsidian() {
+        return RenLavaConfig.getObsidianModifier();
+    }
+
+    private int getStacksPerBlazePowder() {
+        return RenLavaConfig.getBlazePowderModifier();
+    }
+
+    private float getLavaChanceModifier() {
+        return RenLavaConfig.getLavaConvertChanceModifier();
     }
 
     private int getObsidian(BlockState blockState) {
@@ -226,6 +235,5 @@ public class CrucibleBlock extends Block {
         }
         return lavaToShape;
     }
-
 
 }

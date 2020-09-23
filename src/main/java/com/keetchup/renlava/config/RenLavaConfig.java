@@ -1,5 +1,6 @@
 package com.keetchup.renlava.config;
 
+import com.keetchup.renlava.RenLava;
 import me.sargunvohra.mcmods.autoconfig1u.ConfigData;
 import me.sargunvohra.mcmods.autoconfig1u.annotation.Config;
 import me.sargunvohra.mcmods.autoconfig1u.annotation.ConfigEntry;
@@ -16,6 +17,20 @@ public class RenLavaConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     public int blazePowderModifier = 1;
 
+    @ConfigEntry.Gui.Tooltip
+    public float lavaConvertChanceModifier = 1;
+
+    public static int getObsidianModifier() {
+        return RenLava.CONFIG.obsidianModifier;
+    }
+
+    public static int getBlazePowderModifier() {
+        return RenLava.CONFIG.blazePowderModifier;
+    }
+
+    public static float getLavaConvertChanceModifier(){
+        return (RenLava.CONFIG.lavaConvertChanceModifier == 0) ? 1 : RenLava.CONFIG.lavaConvertChanceModifier;
+    }
 }
 
 
