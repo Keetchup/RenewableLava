@@ -1,6 +1,7 @@
 package com.keetchup.renlava.mixin;
 
 import com.keetchup.renlava.RenLava;
+import com.keetchup.renlava.config.RenLavaConfig;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CauldronBlock;
 import net.minecraft.entity.player.PlayerEntity;
@@ -21,18 +22,31 @@ import static com.keetchup.renlava.CrucibleBlock.OBSIDIAN;
 @Mixin(CauldronBlock.class)
 public class CauldronBlockMixin {
 
-    @Inject(method = "onUse", at = @At("HEAD"))
-    private ActionResult obsidianUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity playerEntity, Hand hand, BlockHitResult blockHitResult, CallbackInfoReturnable callbackInfo) {
+    @Inject(method = "onUse", at = @At("HEAD"), cancellable = true)
+    private void obsidianUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity playerEntity, Hand hand, BlockHitResult blockHitResult, CallbackInfoReturnable<ActionResult> callbackInfo) {
         ItemStack itemStack = playerEntity.getStackInHand(hand);
         if (!world.isClient()) {
             if (itemStack.getItem() == Items.OBSIDIAN) {
-                world.setBlockState(blockPos, (BlockState) RenLava.CRUCIBLE.getDefaultState().with(OBSIDIAN, 1), 2);
+                world.setBlockState(blockPos, (BlockState) RenLava.CRUCIBLE.getDefaultState().with(OBSIDIAN, getInitialObsidianValue()), 2);
                 if (!playerEntity.abilities.creativeMode) {
                     itemStack.decrement(1);
                 }
+                callbackInfo.setReturnValue(ActionResult.CONSUME);
                 callbackInfo.cancel();
             }
         }
-        return ActionResult.success(world.isClient);
+        callbackInfo.setReturnValue(ActionResult.success(world.isClient));
     }
+
+    private int getInitialObsidianValue() {
+        int obsidianModifier = RenLavaConfig.getObsidianModifier();
+        if (obsidianModifier > 4) {
+            return 4;
+        } else if (obsidianModifier < 1) {
+            return 1;
+        } else {
+            return obsidianModifier;
+        }
+    }
+
 }
