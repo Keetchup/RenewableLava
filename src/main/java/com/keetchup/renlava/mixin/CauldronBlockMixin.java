@@ -15,24 +15,25 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import org.spongepowered.asm.mixin.injection.callback.CancellationException;
 
+import static com.keetchup.renlava.CrucibleBlock.BLAZE_POWDER;
 import static com.keetchup.renlava.CrucibleBlock.OBSIDIAN;
 
 @Mixin(CauldronBlock.class)
 public class CauldronBlockMixin {
 
     @Inject(method = "onUse", at = @At("HEAD"))
-    private ActionResult obsidianUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity playerEntity, Hand hand, BlockHitResult blockHitResult, CallbackInfoReturnable callbackInfo) {
+    private ActionResult obsidianUse(BlockState blockState, World world, BlockPos blockPos, PlayerEntity playerEntity, Hand hand, BlockHitResult blockHitResult, CallbackInfoReturnable callbackInfo){
         ItemStack itemStack = playerEntity.getStackInHand(hand);
         if (!world.isClient()) {
-            if (itemStack.getItem() == Items.OBSIDIAN) {
-                world.setBlockState(blockPos, (BlockState) RenLava.CRUCIBLE.getDefaultState().with(OBSIDIAN, 1), 2);
+            if (itemStack.getItem() == Items.FIRE_CHARGE) {
+                world.setBlockState(blockPos, (BlockState) RenLava.CRUCIBLE.getDefaultState(), 2);
                 if (!playerEntity.abilities.creativeMode) {
                     itemStack.decrement(1);
                 }
-                callbackInfo.cancel();
             }
         }
-        return ActionResult.success(world.isClient);
+        return ActionResult.SUCCESS;
     }
 }

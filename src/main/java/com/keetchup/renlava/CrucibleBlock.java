@@ -3,11 +3,10 @@ package com.keetchup.renlava;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityContext;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.server.world.ServerWorld;
@@ -16,8 +15,8 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.BooleanBiFunction;
 import net.minecraft.util.Hand;
-import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
@@ -90,7 +89,7 @@ public class CrucibleBlock extends Block {
                 return ActionResult.PASS;
             }
         }
-        return ActionResult.success(world.isClient);
+        return ActionResult.SUCCESS;
     }
 
     public void onEntityCollision(BlockState blockState, World world, BlockPos blockPos, Entity entity) {
@@ -184,7 +183,7 @@ public class CrucibleBlock extends Block {
         stateManager.add(LAVA_LEVEL);
     }
 
-    public VoxelShape getOutlineShape(BlockState blockState, BlockView world, BlockPos blockPos, ShapeContext shapeContext) {
+    public VoxelShape getOutlineShape(BlockState blockState, BlockView world, BlockPos blockPos, EntityContext entityContext) {
         int currentLevel = getInsideLevel(blockState);
         return VoxelShapes.combineAndSimplify(VoxelShapes.fullCube(), VoxelShapes.union(
                 createCuboidShape(0.0D, 0.0D, 4.0D, 16.0D, 3.0D, 12.0D),
