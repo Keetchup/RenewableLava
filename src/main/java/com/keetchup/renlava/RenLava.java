@@ -6,6 +6,7 @@ import me.sargunvohra.mcmods.autoconfig1u.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Material;
+import net.minecraft.block.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 
 public class RenLava implements ModInitializer {
 
-    public static final CrucibleBlock CRUCIBLE = new CrucibleBlock(FabricBlockSettings.of(Material.METAL));
+    public static final CrucibleBlock CRUCIBLE = new CrucibleBlock(FabricBlockSettings.of(Material.METAL, MaterialColor.STONE).strength(2.0F).nonOpaque());
 
     public static RenLavaConfig CONFIG;
 
