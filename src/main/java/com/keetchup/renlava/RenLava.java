@@ -26,6 +26,7 @@ public class RenLava implements ModInitializer {
 
         Registry.register(Registry.BLOCK, new Identifier("renlava", "crucible"), CRUCIBLE);
         Registry.register(Registry.ITEM, new Identifier("renlava", "crucible"), new BlockItem(CRUCIBLE, new Item.Settings().group(ItemGroup.BREWING)));
+
     }
 
 }

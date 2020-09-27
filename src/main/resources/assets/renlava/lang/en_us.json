@@ -1,10 +1,23 @@
 {
   "block.renlava.crucible": "Crucible",
 
-  "text.autoconfig.renlava.option.obsidianModifier": "Obsidian Modifier",
-  "text.autoconfig.renlava.option.obsidianModifier.@Tooltip": "Number of \"stacks\" each Obsidian adds. To fill a Crucible 4 \"stacks\" is needed. Default: 1",
-  "text.autoconfig.renlava.option.blazePowderModifier": "Blaze Powder Modifier",
-  "text.autoconfig.renlava.option.blazePowderModifier.@Tooltip": "Number of \"stacks\" each Blaze Powder adds. To fill a Crucible 16 \"stacks\" is needed. Default: 1",
+  "text.autoconfig.renlava.option.primaryResource": "Primary Resource",
+  "text.autoconfig.renlava.option.primaryResource.@Tooltip[0]": "Minecraft item which is used as a primary resource in crucible.",
+  "text.autoconfig.renlava.option.primaryResource.@Tooltip[1]": "Default: \"minecraft:obsidian\"",
+
+  "text.autoconfig.renlava.option.primaryResourceModifier": "Primary Resource Modifier",
+  "text.autoconfig.renlava.option.primaryResourceModifier.@Tooltip[0]": "Number of \"stacks\" one item of Primary Resource adds.",
+  "text.autoconfig.renlava.option.primaryResourceModifier.@Tooltip[1]": "To fill a Crucible 4 \"stacks\" is needed. Default: 1",
+
+  "text.autoconfig.renlava.option.secondaryResource": "Secondary Resource",
+  "text.autoconfig.renlava.option.secondaryResource.@Tooltip[0]": "Minecraft item which is used as a secondary resource in crucible.",
+  "text.autoconfig.renlava.option.secondaryResource.@Tooltip[1]": "Default: \"minecraft:blaze_powder\"",
+
+  "text.autoconfig.renlava.option.secondaryResourceModifier": "Secondary Resource Modifier",
+  "text.autoconfig.renlava.option.secondaryResourceModifier.@Tooltip[0]": "Number of \"stacks\" each item of Secondary Resource adds.",
+  "text.autoconfig.renlava.option.secondaryResourceModifier.@Tooltip[1]": "To fill a Crucible 16 \"stacks\" is needed. Default: 1",
+
   "text.autoconfig.renlava.option.lavaConvertChanceModifier": "Lava Convert Chance Modifier",
-  "text.autoconfig.renlava.option.lavaConvertChanceModifier.@Tooltip": "Modifier which adjusts the chance of converting Obsidian to Lava. Default: 1"
+  "text.autoconfig.renlava.option.lavaConvertChanceModifier.@Tooltip[0]": "Modifier which adjusts the chance of converting Obsidian to Lava.",
+  "text.autoconfig.renlava.option.lavaConvertChanceModifier.@Tooltip[1]": "Default: 1"
 }
