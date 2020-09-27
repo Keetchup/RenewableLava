@@ -1,0 +1,1279 @@
+{
+  "variants": {
+    "primary_resource=0,secondary_resource=0,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=1,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=2,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=3,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=4,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=5,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=6,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=7,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=8,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=9,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=10,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=11,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=12,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=13,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=14,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=15,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=0,secondary_resource=16,lava_level=0": {
+      "model": "renlava:block/crucible"
+    },
+    "primary_resource=1,secondary_resource=0,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1"
+    },
+    "primary_resource=1,secondary_resource=1,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=2,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=3,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=4,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=5,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=6,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=7,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=8,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=9,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=10,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=11,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=12,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=13,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=14,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=15,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=16,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=2,secondary_resource=0,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2"
+    },
+    "primary_resource=2,secondary_resource=1,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=2,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=3,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=4,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=5,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=6,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=7,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=8,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=9,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=10,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=11,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=12,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=13,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=14,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=15,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=16,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=3,secondary_resource=0,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3"
+    },
+    "primary_resource=3,secondary_resource=1,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=2,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=3,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=4,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=5,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=6,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=7,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=8,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=9,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=10,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=11,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=12,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=13,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=14,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=15,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=16,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=4,secondary_resource=0,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4"
+    },
+    "primary_resource=4,secondary_resource=1,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=2,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=3,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=4,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=5,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=6,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=7,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=8,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=9,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=10,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=11,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=12,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=13,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=14,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=15,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=16,lava_level=0": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=0,secondary_resource=0,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=1,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=2,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=3,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=4,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=5,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=6,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=7,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=8,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=9,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=10,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=11,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=12,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=13,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=14,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=15,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=0,secondary_resource=16,lava_level=1": {
+      "model": "renlava:block/crucible_lava_1"
+    },
+    "primary_resource=1,secondary_resource=0,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1"
+    },
+    "primary_resource=1,secondary_resource=1,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=2,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=3,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=4,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_1"
+    },
+    "primary_resource=1,secondary_resource=5,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=6,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=7,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=8,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_2"
+    },
+    "primary_resource=1,secondary_resource=9,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=10,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=11,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=12,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_3"
+    },
+    "primary_resource=1,secondary_resource=13,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=14,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=15,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=1,secondary_resource=16,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_1_bp_4"
+    },
+    "primary_resource=2,secondary_resource=0,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2"
+    },
+    "primary_resource=2,secondary_resource=1,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=2,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=3,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=4,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=5,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=6,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=7,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=8,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=9,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=10,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=11,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=12,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=13,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=14,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=15,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=16,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=3,secondary_resource=0,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3"
+    },
+    "primary_resource=3,secondary_resource=1,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=2,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=3,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=4,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=5,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=6,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=7,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=8,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=9,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=10,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=11,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=12,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=13,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=14,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=15,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=16,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=4,secondary_resource=0,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4"
+    },
+    "primary_resource=4,secondary_resource=1,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=2,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=3,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=4,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=5,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=6,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=7,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=8,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=9,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=10,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=11,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=12,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=13,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=14,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=15,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=16,lava_level=1": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=0,secondary_resource=0,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=1,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=2,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=3,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=4,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=5,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=6,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=7,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=8,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=9,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=10,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=11,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=12,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=13,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=14,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=15,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=0,secondary_resource=16,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=0,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=1,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=2,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=3,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=4,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=5,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=6,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=7,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=8,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=9,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=10,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=11,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=12,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=13,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=14,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=15,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=1,secondary_resource=16,lava_level=2": {
+      "model": "renlava:block/crucible_lava_2"
+    },
+    "primary_resource=2,secondary_resource=0,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2"
+    },
+    "primary_resource=2,secondary_resource=1,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=2,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=3,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=4,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_1"
+    },
+    "primary_resource=2,secondary_resource=5,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=6,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=7,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=8,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_2"
+    },
+    "primary_resource=2,secondary_resource=9,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=10,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=11,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=12,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_3"
+    },
+    "primary_resource=2,secondary_resource=13,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=14,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=15,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=2,secondary_resource=16,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_2_bp_4"
+    },
+    "primary_resource=3,secondary_resource=0,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3"
+    },
+    "primary_resource=3,secondary_resource=1,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=2,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=3,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=4,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=5,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=6,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=7,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=8,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=9,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=10,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=11,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=12,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=13,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=14,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=15,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=16,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=4,secondary_resource=0,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4"
+    },
+    "primary_resource=4,secondary_resource=1,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=2,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=3,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=4,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=5,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=6,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=7,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=8,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=9,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=10,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=11,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=12,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=13,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=14,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=15,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=16,lava_level=2": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=0,secondary_resource=0,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=1,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=2,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=3,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=4,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=5,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=6,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=7,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=8,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=9,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=10,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=11,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=12,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=13,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=14,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=15,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=0,secondary_resource=16,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=0,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=1,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=2,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=3,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=4,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=5,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=6,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=7,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=8,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=9,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=10,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=11,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=12,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=13,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=14,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=15,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=1,secondary_resource=16,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=0,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=1,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=2,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=3,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=4,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=5,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=6,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=7,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=8,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=9,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=10,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=11,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=12,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=13,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=14,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=15,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=2,secondary_resource=16,lava_level=3": {
+      "model": "renlava:block/crucible_lava_3"
+    },
+    "primary_resource=3,secondary_resource=0,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3"
+    },
+    "primary_resource=3,secondary_resource=1,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=2,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=3,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=4,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_1"
+    },
+    "primary_resource=3,secondary_resource=5,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=6,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=7,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=8,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_2"
+    },
+    "primary_resource=3,secondary_resource=9,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=10,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=11,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=12,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_3"
+    },
+    "primary_resource=3,secondary_resource=13,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=14,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=15,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=3,secondary_resource=16,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_3_bp_4"
+    },
+    "primary_resource=4,secondary_resource=0,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4"
+    },
+    "primary_resource=4,secondary_resource=1,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=2,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=3,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=4,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_1"
+    },
+    "primary_resource=4,secondary_resource=5,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=6,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=7,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=8,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_2"
+    },
+    "primary_resource=4,secondary_resource=9,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=10,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=11,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=12,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_3"
+    },
+    "primary_resource=4,secondary_resource=13,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=14,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=15,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=4,secondary_resource=16,lava_level=3": {
+      "model": "renlava:block/crucible_obsidian_4_bp_4"
+    },
+    "primary_resource=0,secondary_resource=0,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=1,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=2,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=3,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=4,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=5,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=6,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=7,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=8,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=9,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=10,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=11,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=12,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=13,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=14,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=15,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=0,secondary_resource=16,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=0,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=1,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=2,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=3,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=4,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=5,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=6,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=7,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=8,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=9,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=10,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=11,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=12,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=13,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=14,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=15,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=1,secondary_resource=16,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=0,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=1,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=2,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=3,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=4,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=5,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=6,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=7,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=8,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=9,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=10,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=11,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=12,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=13,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=14,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=15,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=2,secondary_resource=16,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=0,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=1,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=2,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=3,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=4,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=5,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=6,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=7,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=8,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=9,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=10,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=11,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=12,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=13,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=14,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=15,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=3,secondary_resource=16,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=0,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=1,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=2,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=3,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=4,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=5,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=6,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=7,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=8,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=9,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=10,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=11,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=12,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=13,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=14,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=15,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    },
+    "primary_resource=4,secondary_resource=16,lava_level=4": {
+      "model": "renlava:block/crucible_lava"
+    }
+  }
+}

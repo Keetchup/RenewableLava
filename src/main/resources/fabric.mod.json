@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "renlava",
+  "version": "${version}",
+
+  "name": "Renewable Lava",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "FrozenKetchup"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Keetchup/RenewableLava"
+  },
+
+  "license": "MIT",
+  "icon": "assets/renlava/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.keetchup.renlava.RenLava"
+    ],
+    "modmenu": [
+      "com.keetchup.renlava.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
