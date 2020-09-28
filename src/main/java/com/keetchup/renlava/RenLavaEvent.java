@@ -19,7 +19,7 @@ public class RenLavaEvent {
         World world = event.getWorld();
         ItemStack itemStack = event.getItemStack();
         BlockPos blockPos = event.getPos();
-        if (!world.isRemote()) {
+        if (!world.isRemote) {
             if (world.getBlockState(blockPos).getBlock() == Blocks.CAULDRON) {
                 if (itemStack.getItem() == Items.OBSIDIAN) {
                     world.setBlockState(blockPos, (BlockState) ModBlocks.CRUCIBLE_BLOCK.get().getDefaultState().with(CrucibleBlock.PRIMARY_RESOURCE, getInitialPrimaryValue()), 2);
@@ -31,7 +31,7 @@ public class RenLavaEvent {
                 }
             }
         }
-        event.setCancellationResult(ActionResultType.SUCCESS);
+        event.setCancellationResult(ActionResultType.func_233537_a_(world.isRemote));
     }
 
     private int getInitialPrimaryValue() {

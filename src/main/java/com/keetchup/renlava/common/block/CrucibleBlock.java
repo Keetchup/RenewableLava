@@ -52,7 +52,7 @@ public class CrucibleBlock extends Block {
     @Override
     public ActionResultType onBlockActivated(BlockState blockState, World worldIn, BlockPos blockPos, PlayerEntity playerEntity, Hand handIn, BlockRayTraceResult blockRayTraceResult) {
         ItemStack itemStack = playerEntity.getHeldItem(handIn);
-        if (!worldIn.isRemote()) {
+        if (!worldIn.isRemote) {
             if (itemStack.isEmpty()) {
                 return ActionResultType.PASS;
             } else if (itemStack.getItem() == Items.OBSIDIAN) {
@@ -86,7 +86,7 @@ public class CrucibleBlock extends Block {
                 }
             }
         }
-        return ActionResultType.SUCCESS;
+        return ActionResultType.func_233537_a_(worldIn.isRemote);
     }
 
     @Override

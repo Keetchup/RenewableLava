@@ -26,7 +26,6 @@ public class RenLavaConfig {
         obsidianModifier = builder.comment("Number of \"stacks\" each item of Obsidian adds. Crucible requires 4 \"stack\" to fill up").defineInRange("obsidianModifier", 1, 1, 4);
         blazePowderModifier = builder.comment("Number of \"stacks\" each item of Blaze Powder adds. Crucible requires 16 \"stack\" to fill up").defineInRange("blazePowderModifier", 1, 1, 16);
         lavaModifier = builder.comment("Percentage of chance of material converting into lava inside of Crucible").defineInRange("lavaConvertingModifier", 1.0, Double.MIN_VALUE, Double.MAX_VALUE);
-    }
-
+        }
 
 }
